@@ -1,0 +1,59 @@
+# Project Summary
+RecipeHub is a web application aimed at simplifying home cooking by offering users a collection of delicious recipes along with step-by-step instructions. The platform enhances the cooking experience with features like an integrated ordering system and payment processing through "Insta Pay." It caters to beginners, making it easy to prepare meals while providing a user-friendly interface.
+
+# Project Module Description
+- **Recipe Display**: Highlights featured recipes with images and detailed descriptions.
+- **Payment Integration**: Facilitates quick payments through various methods, including "Insta Pay."
+- **Order System**: Allows users to order ingredients and ask questions regarding recipes.
+- **Q&A Section**: Offers answers to frequently asked recipe-related inquiries.
+
+# Directory Tree
+```
+shadcn-ui/
+├── README.md               # Project overview and setup instructions
+├── components.json         # Component configuration
+├── eslint.config.js        # ESLint configuration file
+├── index.html              # Main HTML file for the app
+├── package.json            # Project dependencies and scripts
+├── postcss.config.js       # PostCSS configuration
+├── public/                 # Static assets
+│   ├── favicon.svg         # Favicon for the app
+│   └── robots.txt          # Robots.txt for SEO
+├── src/                    # Source code
+│   ├── App.css             # Global styles
+│   ├── App.tsx             # Main application component
+│   ├── components/         # UI components
+│   ├── data/               # Recipe data
+│   ├── hooks/              # Custom hooks
+│   ├── pages/              # Application pages
+│   ├── lib/                # Utility functions
+│   ├── main.tsx            # Application entry point
+│   └── vite-env.d.ts       # TypeScript environment definitions
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── template_config.json     # Template configuration
+├── todo.md                 # Project TODOs
+├── tsconfig.*.json         # TypeScript configuration files
+├── .gitignore              # Files and directories to ignore in Git
+└── vite.config.ts          # Vite configuration for building the app
+```
+
+# File Description Inventory
+- **README.md**: Overview of the project and setup instructions.
+- **package.json**: Lists dependencies and scripts for the project.
+- **src/components/**: Contains reusable UI components for the application.
+- **src/data/recipes.ts**: Holds the recipe data including ingredients and instructions.
+- **src/pages/**: Contains the main pages of the application.
+- **src/hooks/**: Custom React hooks for managing state and side effects.
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+
+# Technology Stack
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Superset of JavaScript that adds static types.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Vite**: Build tool for modern web projects.
+
+# Usage
+1. **Install Dependencies**: Run the command to install project dependencies.
+2. **Build the Project**: Use the build command to prepare the application for deployment.
+3. **Run the Application**: Start the application in development mode using the command.
+
